@@ -12,5 +12,5 @@ BD1<-kNN(BD)
 summary(BD1)
 str(BD1)
 
-write.csv(BD1, file = "BD1.csv")
+write.csv(BD1, "BD1.csv")
 
