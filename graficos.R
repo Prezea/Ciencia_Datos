@@ -139,7 +139,7 @@ RG
 grid.arrange(DD, BX, nrow= 1, ncol=2)
 
 # 3 graficos en dos filas y dos columnas
-grid.arrange(DD, bx, HG, nrow= 2, ncol=2)
+grid.arrange(DD, BX, HG, nrow= 2, ncol=2)
 
 # 4 graficos en dos filas y dos columnas
 grid.arrange(GB, HG, DD, BX, nrow= 2, ncol=2)
