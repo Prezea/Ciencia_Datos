@@ -11,6 +11,7 @@ library(gridExtra)
 
 #1.- Se exporta la matriz de datos obtenida del análisis de
 #K-vecinos, los datos se encuentran tratados 
+#Descarga desde classroom
 
 #2.- Se visualizan los nombres de las columnas.
 colnames(BD_penguins)
