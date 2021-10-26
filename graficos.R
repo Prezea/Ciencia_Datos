@@ -13,11 +13,11 @@ library(gridExtra)
 #K-vecinos, los datos se encuentran tratados 
 
 #2.- Se visualizan los nombres de las columnas.
-colnames(BD_pinguins)
+colnames(BD_penguins)
 
 #3.- Se crea una nueva matriz de datos donde se seleccionan
 # de la columnas 2 a la 9.
-BD<-BD_pinguins[,2:9]
+BD<-BD_penguins[,2:9]
 
 
 #------------------------------------------
