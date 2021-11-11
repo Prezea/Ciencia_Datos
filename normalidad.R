@@ -1,6 +1,7 @@
 
 #_____________ PRUEBAS DE NORMALIDAD_______________
 
+install.packages("stats")
 library(stats)
 install.packages("nortest")
 library(nortest)
@@ -27,8 +28,8 @@ hist(BD3$Largo_pico_mm)
 # el número de la columna.
 colnames(BD3)
 
-#2.- Se seleccionan de las filas 4 a la 36 y la columna 6.
-peso<-BD3[4:36,6]
+#2.- Se seleccionan de las filas 4 a la 36 y la columna 7.
+peso<-BD3[4:36,7]
 
 #3.- Se visualiza la variable
 peso
@@ -71,12 +72,13 @@ lillie.test(BD3$Largo_pico_mm)
 
 # 1.- Exploración de la variable
 hist(peso)
+length(peso)
 
 # 2.- Prueba de hipótesis
 shapiro.test(peso)
 
 #3.- Interpretación:
-#p-valor: 0.4668, es mayor que 0.05. Por lo tanto, NO se rechaza Ho, 
+#p-valor: 0.1157, es mayor que 0.05. Por lo tanto, NO se rechaza Ho, 
 #eso quiere decir que los datos siguen una distribución normal.
 
 #-----------------------------------------------
@@ -105,6 +107,6 @@ datos<-datasets::rivers
 
 
 
-lillie.test(BD3$Largo_aleta_mm)
+
 
 
