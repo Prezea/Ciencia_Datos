@@ -69,7 +69,7 @@ summary(regresion)
 #
 #        Visto de otro modo: 
 #
-#             Ancho del pico = -281.86 + 2.17.09(masa_corporal) + 374.8
+#             Ancho del pico = -281.86 + 217.09(masa_corporal) + 374.8
 #
 # Sin embargo, R^2 (multiple R-squared) es de 0.3318, 
 #  lo que significa que NO se trata de un buen modelo.
